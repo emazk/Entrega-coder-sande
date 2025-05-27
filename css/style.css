@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+
 /*------RESET-------*/
 * {
     margin: 0;
@@ -1020,7 +1021,6 @@ footer div img {
 
     .centro {
         text-align: center;
-        /*USAR DESP---------------------------*/
     }
 
     .col-12 button {
@@ -1059,7 +1059,8 @@ footer div img {
 
 @media screen and (max-width: 706px) {
     header nav ul li a {
-        font-size: 20px !important;
+        font-size: 25px !important;
+        text-align: center;
     }
 }
 
@@ -1073,6 +1074,13 @@ footer div img {
     }
 }
 
+@media screen and (max-width: 654px) {
+    header nav ul li a {
+        font-size: 23px !important;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 630px) {
     .cotizar-mi-auto section.titulos div h2 {
         font-size: 40px;
@@ -1083,7 +1091,7 @@ footer div img {
     }
 
     header nav ul li a {
-        font-size: 18px !important;
+        font-size: 20px !important;
         margin: 30px;
         transition: 1s;
     }
@@ -1121,7 +1129,7 @@ footer div img {
     }
 
     header nav ul li a {
-        font-size: 16px !important;
+        font-size: 19px !important;
     }
 }
 
@@ -1135,7 +1143,7 @@ footer div img {
     }
 
     header nav ul li a {
-        font-size: 12px !important;
+        font-size: 15px !important;
     }
 }
 
@@ -1146,6 +1154,10 @@ footer div img {
 
     .pag-principal .tittle h2 {
         font-size: 12px;
+    }
+
+    header nav ul li a {
+        font-size: 13px !important;
     }
 }
 
@@ -1173,7 +1185,13 @@ footer div img {
 
 
     header nav ul li a {
-        font-size: 7px !important;
+        font-size: 11px !important;
+    }
+}
+
+@media screen and (max-width: 462px){
+    header nav ul li a {
+        font-size: 9px !important;
     }
 }
 
