@@ -1,0 +1,30 @@
+/*-----SELECCION DE BOTONES-----*/
+h1::selection {
+    background-color: #436474;
+}
+
+h2::selection {
+    background-color: #436474;
+}
+
+h3::selection {
+    background-color: #436474;
+}
+
+p::selection {
+    background-color: #436474;
+}
+
+ul::selection {
+    background-color: #436474;
+}
+
+/*--------LOGO WSP---------*/
+.wsp a img {
+    width: 90px;
+    height: auto;
+    position: fixed;
+    bottom: 10%;
+    left: 92%;
+    z-index: 9999;
+}

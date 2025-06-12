@@ -1,0 +1,36 @@
+/*---------------------PAG COTIZAR MI AUTO---------------*/
+/*--------MAIN---------*/
+.cotizar-mi-auto {
+    background-image: url(../img/backgeneral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .titulos {
+        padding-top: 8%;
+        margin: 0 20%;
+    }
+
+    section.titulos div {
+        h2 {
+            border: 3px solid #436474;
+            background-color: #031924ab;
+            border-style: inset;
+            font-size: 65px;
+            color: aliceblue;
+            text-transform: uppercase;
+            font-weight: 400;
+            text-align: center;
+            width: 100%;
+        }
+
+        h3 {
+            background-color: #0319245d;
+            font-size: 26px;
+            color: aliceblue;
+            text-transform: uppercase;
+            font-weight: 400;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}

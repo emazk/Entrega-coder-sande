@@ -1,0 +1,118 @@
+/*-------------FOOTER----------------*/
+footer {
+    background-color: rgb(224, 223, 223);
+
+    div img {
+        width: 170px;
+        height: auto;
+        padding-left: 20px;
+        margin-bottom: -25px;
+    }
+}
+
+.pie-logo {
+    margin-bottom: 60px;
+
+    p {
+        font-size: 17px;
+        font-weight: 400;
+        text-align: left;
+        padding-left: 60px;
+    }
+}
+
+.contactanos {
+    margin-top: -235px;
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        padding-right: 500px;
+    
+
+        p {
+            font-size: 20px;
+            text-align: center;
+            padding-right: 430px;
+            padding-top: 5px;
+        }
+    }
+}
+
+.seguinos {
+    margin-top: -85px;
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        padding-left: 500px;
+
+        ul {
+            text-align: center;
+            margin-left: 430px;
+
+            li {
+                list-style: none;
+
+                a {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.mapa iframe {
+    width: 400px;
+    height: 300px;
+    margin-left: 76%;
+    margin-top: -70px;
+}
+
+.derechos p {
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    top: -25px;
+}
+
+/*-----ICONOS BOOTSTRAP-----*/
+.seguinos ul {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 37%;
+    flex-direction: column;
+}
+
+.red {
+    padding-right: 8%;
+}
+
+.seguinos ul li {
+    font-size: 18px;
+    color: #031924bb;
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+        padding-left: 500px;
+        color: rgb(39, 39, 39) !important;
+    }
+}
+
+.correo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    i {
+        font-size: 18px;
+        margin-right: 5px;
+        color: #031924bb;
+    }
+}

@@ -1,0 +1,562 @@
+/*-------------------------------QUERY-------------------------------------*/
+@media screen and (max-width: 2060px) {
+    .comprar {
+        .title {
+            h1 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1838px) {
+    .seguinos {
+        ul {
+            li {
+                h2 {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1730px) {
+    .mapa iframe {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .wsp {
+        display: none;
+    }
+
+    footer {
+        div {
+            img {
+                width: 200px;
+                height: auto;
+                margin-left: 40%;
+            }
+        }
+    }
+
+    .pie-logo {
+        p {
+            font-size: 17px;
+            text-align: center;
+            margin-right: 8%;
+        }
+    }
+
+    .contactanos {
+        margin-top: 5%;
+
+        h2 {
+            padding: 0% 18% 0% 5%;
+            font-size: 28px;
+        }
+
+        p {
+            padding: 0 12% 0% 5%;
+        }
+    }
+
+    .seguinos {
+        margin-top: 4%;
+        text-align: center;
+
+        h2 {
+            padding: 5px;
+            font-size: 28px;
+        }
+
+        ul {
+            margin: 0%;
+            padding: 0 23% 0% 5%;
+            margin-bottom: 10%;
+            display: flex;
+            justify-content: end;
+            align-items: end;
+            padding-right: 37%;
+            flex-direction: column;
+
+            li {
+                font-size: 18px;
+                color: #031924bb;
+
+                h2 {
+                    font-weight: 500;
+                    font-size: 30px;
+                    text-align: center;
+                    padding-left: 500px;
+                    color: rgb(39, 39, 39) !important;
+                }
+            }
+        }
+    }
+
+    .mapa {
+        iframe {
+            position: absolute;
+            width: 280px;
+            height: 180px;
+            margin-left: 70%;
+            margin-top: -24%;
+        }
+    }
+
+    .correo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        i {
+            font-size: 18px;
+            margin-right: 5px;
+            color: #031924bb;
+        }
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .todos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0%;
+    }
+
+    .auto4 {
+        display: flex;
+        margin-top: -30%;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width: 1182px) {
+    .pag-principal {
+
+        .tittle {
+            h1 {
+                font-size: 50px;
+
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .mapa {
+        iframe {
+            position: absolute;
+            width: 250px;
+            height: 150px;
+            margin-left: 70%;
+            margin-top: -24%;
+        }
+    }
+}
+
+@media screen and (max-width: 979px) {
+    footer {
+        div {
+            img {
+                width: 200px;
+                height: auto;
+                margin-left: 38%;
+            }
+        }
+    }
+
+    .botones {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+        margin-left: 5%;
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 871px) {
+    .cotizar-mi-auto {
+        section.titulos {
+            div {
+                h2 {
+                    font-size: 50px;
+                }
+
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    .mapa {
+        iframe {
+            position: absolute;
+            width: 200px;
+            height: 150px;
+            margin-left: 70%;
+            margin-top: -24%;
+        }
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 25px !important;
+                        margin: 30px;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    header {
+        nav {
+            flex-direction: column;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 825px) {
+    .pag-principal {
+        .tittle {
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .comprar {
+        .title {
+            h2 {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .todos {
+        gap: 0.5%;
+    }
+
+    .auto1 {
+        p {
+            font-size: 20px;
+        }
+
+        div {
+            width: 75%;
+
+            img {
+                width: 300px;
+                height: auto;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+        }
+    }
+
+    /*-------AUTO 2--------------------*/
+
+    .auto2 {
+        div {
+            width: 73%;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    /*------------AUTO 3--------------------*/
+    .auto3 {
+        div {
+            width: 78%;
+
+            img {
+                width: 300px;
+                height: auto;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+    /*------------AUTO 4--------------------*/
+    .auto4 {
+        div {
+            width: 74%;
+
+            img {
+                width: 300px;
+                height: auto;
+            }
+
+            h3 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+    .pag-venta {
+        section {
+            div {
+                h1 {
+                    font-size: 50px;
+                }
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .centro {
+        text-align: center;
+    }
+
+    .col-12 {
+        button {
+            padding: 2% 2%;
+            width: 20%;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+
+    footer {
+        div {
+            img {
+                width: 200px;
+                height: auto;
+                margin-left: 36%;
+            }
+        }
+    }
+
+    .botones {
+        .comprar-auto {
+            h2 {
+                a {
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .vender-auto {
+            div {
+                h2 {
+                    a {
+                        font-size: 42px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 746px) {
+    .mapa {
+        iframe {
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            margin-left: 70%;
+            margin-top: -24%;
+        }
+    }
+}
+
+@media screen and (max-width: 706px) {
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 25px !important;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .pag-principal {
+        .tittle {
+            h1 {
+                font-size: 30px;
+            }
+
+            h2 {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 654px) {
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 23px !important;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .cotizar-mi-auto {
+        section.titulos {
+            div {
+                h2 {
+                    font-size: 40px;
+                }
+
+                h3 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 20px !important;
+                        margin: 30px;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .comprar {
+        .title {
+            h1 {
+                font-size: 35px;
+            }
+
+            h2 {
+                font-size: 14px;
+            }
+        }
+    }
+
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 12px !important;
+                        margin: 30px;
+                        transition: 1s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .contacto {
+        .titulos {
+            h1 {
+                font-size: 40px;
+            }
+        }
+
+        section.titulos {
+            h2 {
+                font-size: 23px;
+            }
+        }
+    }
+
+    footer {
+        div {
+            img {
+                width: 200px;
+                height: auto;
+                margin-left: 30%;
+            }
+        }
+    }
+    header {
+        nav {
+            ul {
+                li {
+                    a {
+                        font-size: 19px !important;
+                    }
+                }
+            }
+        }
+    }
+}
