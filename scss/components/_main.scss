@@ -1,0 +1,105 @@
+/*------------MAIN---------------*/
+
+.pag-principal {
+
+    text-align: center;
+    height: 1600px;
+    background-image: url(../img/fondoprincipal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .tittle {
+        margin: 0 2%;
+        padding-top: 8%;
+        padding-left: 37%;
+        padding-right: 33%;
+
+        h1 {
+            /*Titulo Sande Motors*/
+            font-family: "Exo 2", sans-serif;
+            background-color: #436474b6;
+            border-style: inset;
+            font-size: 70px;
+            color: aliceblue;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        h2 {
+
+            font-family: "Exo 2", sans-serif;
+            background-color: #43647470;
+            font-size: 30px;
+            color: aliceblue;
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+    }
+}
+
+/*-----COMPRAR AUTO-----*/
+.botones .comprar-auto h2 a {
+    color: rgb(215, 233, 241);
+    border: 3px solid #436474;
+    background-color: #031924;
+    opacity: 95%;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 1s;
+    &:hover{
+        background-color: #436474;
+    }
+}
+
+/*------VENDER AUTO------------*/
+.botones .vender-auto div h2 a {
+    color: rgb(215, 233, 241);
+    border: 3px solid #436474;
+    background-color: #031924;
+    opacity: 95%;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 1s;
+    &:hover{
+        background-color: #436474;
+    }
+}
+
+/*------CAROUSEL----*/
+.carousel {
+    margin-top: 8%;
+}
+
+.carousel-inner img {
+    height: 550px;
+    object-fit: contain;
+    background-color: #03192463;
+    padding: 3%;
+}
+
+.carousel-caption h5 {
+    color: white;
+    -webkit-text-stroke: 1.2px black;
+    padding: 0.5%;
+    font-size: 26px;
+    font-family: "Ancizar Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.carousel-caption p {
+    color: white;
+    -webkit-text-stroke: 1.2px black;
+    font-family: "Ancizar Sans", sans-serif;
+    font-size: 23px;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    margin-bottom: 25px;
+}

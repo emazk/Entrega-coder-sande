@@ -1,0 +1,981 @@
+/*-----SELECCION DE BOTONES-----*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap");
+h1::selection {
+  background-color: #436474;
+}
+
+h2::selection {
+  background-color: #436474;
+}
+
+h3::selection {
+  background-color: #436474;
+}
+
+p::selection {
+  background-color: #436474;
+}
+
+ul::selection {
+  background-color: #436474;
+}
+
+/*--------LOGO WSP---------*/
+.wsp a img {
+  width: 90px;
+  height: auto;
+  position: fixed;
+  bottom: 10%;
+  left: 92%;
+  z-index: 9999;
+}
+
+/*---FUENTES IMPORTADAS----*/
+/*------RESET-------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*----AJUSTES----*/
+h1,
+h2 {
+  margin: 0%;
+}
+
+footer {
+  padding-bottom: 0.1%;
+}
+
+/*-----FUENTE BODY------*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*----------HEADER------------*/
+header {
+  background-color: rgb(224, 223, 223);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+header nav img {
+  width: 110px;
+  height: auto;
+  margin-left: 20px;
+}
+header nav ul {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 1000;
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  padding-right: 100px;
+  align-items: center;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(39, 36, 36);
+  font-size: 28px;
+  font-weight: 500;
+  margin: 30px;
+  transition: 1s;
+}
+header nav ul a:hover {
+  background-color: #436474;
+  border-radius: 60px;
+}
+
+/*------------MAIN---------------*/
+.pag-principal {
+  text-align: center;
+  height: 1600px;
+  background-image: url(../img/fondoprincipal.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag-principal .tittle {
+  margin: 0 2%;
+  padding-top: 8%;
+  padding-left: 37%;
+  padding-right: 33%;
+}
+.pag-principal .tittle h1 {
+  /*Titulo Sande Motors*/
+  font-family: "Exo 2", sans-serif;
+  background-color: rgba(67, 100, 116, 0.7137254902);
+  border-style: inset;
+  font-size: 70px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.pag-principal .tittle h2 {
+  font-family: "Exo 2", sans-serif;
+  background-color: rgba(67, 100, 116, 0.4392156863);
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+
+/*-----COMPRAR AUTO-----*/
+.botones .comprar-auto h2 a {
+  color: rgb(215, 233, 241);
+  border: 3px solid #436474;
+  background-color: #031924;
+  opacity: 95%;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 1s;
+}
+.botones .comprar-auto h2 a:hover {
+  background-color: #436474;
+}
+
+/*------VENDER AUTO------------*/
+.botones .vender-auto div h2 a {
+  color: rgb(215, 233, 241);
+  border: 3px solid #436474;
+  background-color: #031924;
+  opacity: 95%;
+  border-radius: 10px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 1s;
+}
+.botones .vender-auto div h2 a:hover {
+  background-color: #436474;
+}
+
+/*------CAROUSEL----*/
+.carousel {
+  margin-top: 8%;
+}
+
+.carousel-inner img {
+  height: 550px;
+  object-fit: contain;
+  background-color: rgba(3, 25, 36, 0.3882352941);
+  padding: 3%;
+}
+
+.carousel-caption h5 {
+  color: white;
+  -webkit-text-stroke: 1.2px black;
+  padding: 0.5%;
+  font-size: 26px;
+  font-family: "Ancizar Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.carousel-caption p {
+  color: white;
+  -webkit-text-stroke: 1.2px black;
+  font-family: "Ancizar Sans", sans-serif;
+  font-size: 23px;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+/*-------------------------PAGE COMPRAR-----------------------------*/
+/*-----------------MAIN COMPRAR--------------*/
+.comprar {
+  background-image: url(../img/backgeneral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comprar .tittle {
+  padding-top: 8%;
+  margin: 0 30%;
+}
+.comprar .tittle h1 {
+  border: 3px solid #436474;
+  background-color: rgba(3, 25, 36, 0.7333333333);
+  border-style: inset;
+  font-size: 65px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  width: 100%;
+}
+.comprar .tittle h2 {
+  font-size: 30px;
+  color: aliceblue;
+  background-color: rgba(3, 25, 36, 0.3019607843);
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+.comprar .barra {
+  display: flex;
+  justify-content: center;
+}
+.comprar .barra label {
+  font-size: 24px;
+  color: #333;
+}
+.comprar .barra form {
+  width: 40%;
+}
+.comprar .barra form input {
+  font-size: 24px;
+  width: 100%;
+  height: 48px;
+  padding: 10px;
+  margin-top: 3%;
+  margin-bottom: 8%;
+}
+
+/*-------AUTOS---------------------*/
+/*-----------GRID---------*/
+.todos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto auto;
+  gap: 0.5%;
+}
+
+/*-------AUTO 1---------------------*/
+.auto1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.auto1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #031924;
+  border: 4px solid rgb(31, 14, 78);
+}
+.auto1 div img {
+  width: 400px;
+  height: auto;
+}
+.auto1 div h3 {
+  margin-top: 1%;
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.auto1 p {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/*-------AUTO 2--------------------*/
+.auto2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.auto2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 570px;
+  max-height: 430px;
+  padding: 20px;
+  background-color: #031924;
+  border: 4px solid rgb(31, 14, 78);
+}
+.auto2 div img {
+  width: 400px;
+  height: auto;
+}
+.auto2 div h3 {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.auto2 p {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*-------AUTO 3--------------------*/
+.auto3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 30%;
+}
+.auto3 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  background-color: #031924;
+  border: 4px solid rgb(31, 14, 78);
+  max-width: 570px;
+  max-height: 430px;
+}
+.auto3 div img {
+  width: 400px;
+  height: auto;
+}
+.auto3 div h3 {
+  font-size: 30px;
+  margin-top: 1%;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.auto3 div p {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*------------AUTO 4--------------------*/
+.auto4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.auto4 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  max-width: 570px;
+  max-height: 430px;
+  background-color: #031924;
+  border: 4px solid rgb(31, 14, 78);
+}
+.auto4 div img {
+  width: 400px;
+  height: auto;
+}
+.auto4 div h3 {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.auto4 div p {
+  font-size: 30px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*-----------------PAGE VENDER AUTO---------*/
+/*-----------MAIN PAG-VENTA-----------*/
+.pag-venta {
+  background-image: url(../img/backgeneral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pag-venta section div {
+  padding-top: 8%;
+  margin: 0 20%;
+}
+.pag-venta section div h1 {
+  border: 3px solid #436474;
+  background-color: rgba(3, 25, 36, 0.6705882353);
+  border-style: inset;
+  font-size: 65px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+.pag-venta section div h2 {
+  font-size: 40px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  background-color: rgba(3, 25, 36, 0.3215686275);
+}
+.pag-venta section div p {
+  font-size: 20px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: rgba(20, 20, 20, 0.678);
+  text-align: center;
+  margin-bottom: -80px;
+}
+
+/*------------FORMULARIOS-------------VENTA-------------------*/
+.row {
+  margin: 15% 3% 0% 3%;
+  padding-bottom: 15%;
+}
+
+.col-md-6 label {
+  color: white;
+  font-size: 28px;
+}
+
+.col-12 {
+  color: white;
+  font-size: 28px;
+}
+.col-12 button {
+  margin-top: 3%;
+  width: 10%;
+  height: 40%;
+}
+
+.col-md-2 {
+  color: white;
+  font-size: 28px;
+}
+
+/*---------------------PAG COTIZAR MI AUTO---------------*/
+/*--------MAIN---------*/
+.cotizar-mi-auto {
+  background-image: url(../img/backgeneral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cotizar-mi-auto .titulos {
+  padding-top: 8%;
+  margin: 0 20%;
+}
+.cotizar-mi-auto section.titulos div h2 {
+  border: 3px solid #436474;
+  background-color: rgba(3, 25, 36, 0.6705882353);
+  border-style: inset;
+  font-size: 65px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+.cotizar-mi-auto section.titulos div h3 {
+  background-color: rgba(3, 25, 36, 0.3647058824);
+  font-size: 26px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+
+/*-----------------------------PAG-CONTACTO-------------------------------------------------*/
+.contacto {
+  background-image: url(../img/backgeneral.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contacto .titulos {
+  padding-top: 8%;
+  margin: 0 20%;
+}
+.contacto .titulos h1 {
+  border: 3px solid #436474;
+  background-color: rgba(3, 25, 36, 0.6705882353);
+  border-style: inset;
+  font-size: 65px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+.contacto .titulos h2 {
+  background-color: rgba(3, 25, 36, 0.6235294118);
+  font-size: 26px;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+}
+
+/*-----------CONSULTA------------*/
+.col-12 textarea {
+  width: 100%;
+  height: 150px;
+}
+
+/*-------------FOOTER----------------*/
+footer {
+  background-color: rgb(224, 223, 223);
+}
+footer div img {
+  width: 170px;
+  height: auto;
+  padding-left: 20px;
+  margin-bottom: -25px;
+}
+
+.pie-logo {
+  margin-bottom: 60px;
+}
+.pie-logo p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.contactanos {
+  margin-top: -235px;
+}
+.contactanos h2 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  padding-right: 500px;
+}
+.contactanos h2 p {
+  font-size: 20px;
+  text-align: center;
+  padding-right: 430px;
+  padding-top: 5px;
+}
+
+.seguinos {
+  margin-top: -85px;
+}
+.seguinos h2 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 500px;
+}
+.seguinos h2 ul {
+  text-align: center;
+  margin-left: 430px;
+}
+.seguinos h2 ul li {
+  list-style: none;
+}
+.seguinos h2 ul li a {
+  font-size: 20px;
+  text-align: center;
+}
+
+.mapa iframe {
+  width: 400px;
+  height: 300px;
+  margin-left: 76%;
+  margin-top: -70px;
+}
+
+.derechos p {
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  top: -25px;
+}
+
+/*-----ICONOS BOOTSTRAP-----*/
+.seguinos ul {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right: 37%;
+  flex-direction: column;
+}
+
+.red {
+  padding-right: 8%;
+}
+
+.seguinos ul li {
+  font-size: 18px;
+  color: rgba(3, 25, 36, 0.7333333333);
+}
+.seguinos ul li h2 {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 500px;
+  color: rgb(39, 39, 39) !important;
+}
+
+.correo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.correo i {
+  font-size: 18px;
+  margin-right: 5px;
+  color: rgba(3, 25, 36, 0.7333333333);
+}
+
+/*-------------------------------QUERY-------------------------------------*/
+@media screen and (max-width: 2060px) {
+  .comprar .title h1 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1838px) {
+  .seguinos ul li h2 {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .mapa iframe {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 1390px) {
+  .wsp {
+    display: none;
+  }
+  footer div img {
+    width: 200px;
+    height: auto;
+    margin-left: 40%;
+  }
+  .pie-logo p {
+    font-size: 17px;
+    text-align: center;
+    margin-right: 8%;
+  }
+  .contactanos {
+    margin-top: 5%;
+  }
+  .contactanos h2 {
+    padding: 0% 18% 0% 5%;
+    font-size: 28px;
+  }
+  .contactanos p {
+    padding: 0 12% 0% 5%;
+  }
+  .seguinos {
+    margin-top: 4%;
+    text-align: center;
+  }
+  .seguinos h2 {
+    padding: 5px;
+    font-size: 28px;
+  }
+  .seguinos ul {
+    margin: 0%;
+    padding: 0 23% 0% 5%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 37%;
+    flex-direction: column;
+  }
+  .seguinos ul li {
+    font-size: 18px;
+    color: rgba(3, 25, 36, 0.7333333333);
+  }
+  .seguinos ul li h2 {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 500px;
+    color: rgb(39, 39, 39) !important;
+  }
+  .mapa iframe {
+    position: absolute;
+    width: 280px;
+    height: 180px;
+    margin-left: 70%;
+    margin-top: -24%;
+  }
+  .correo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .correo i {
+    font-size: 18px;
+    margin-right: 5px;
+    color: rgba(3, 25, 36, 0.7333333333);
+  }
+}
+@media screen and (max-width: 1230px) {
+  .todos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0%;
+  }
+  .auto4 {
+    display: flex;
+    margin-top: -30%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1182px) {
+  .pag-principal .tittle h1 {
+    font-size: 50px;
+  }
+  .pag-principal .tittle h1 h2 {
+    font-size: 20px;
+  }
+  .mapa iframe {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    margin-left: 70%;
+    margin-top: -24%;
+  }
+}
+@media screen and (max-width: 979px) {
+  footer div img {
+    width: 200px;
+    height: auto;
+    margin-left: 38%;
+  }
+  .botones {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 5%;
+    gap: 100px;
+  }
+}
+@media screen and (max-width: 871px) {
+  .cotizar-mi-auto section.titulos div h2 {
+    font-size: 50px;
+  }
+  .cotizar-mi-auto section.titulos div h3 {
+    font-size: 20px;
+  }
+  .mapa iframe {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    margin-left: 70%;
+    margin-top: -24%;
+  }
+  header nav ul li a {
+    font-size: 25px !important;
+    margin: 30px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: 840px) {
+  header nav {
+    flex-direction: column;
+  }
+  header nav img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 825px) {
+  .pag-principal .tittle h1 {
+    font-size: 26px;
+  }
+  .pag-principal .tittle h2 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .comprar .title h2 {
+    font-size: 18px;
+  }
+  .todos {
+    gap: 0.5%;
+  }
+  .auto1 p {
+    font-size: 20px;
+  }
+  .auto1 div {
+    width: 75%;
+  }
+  .auto1 div img {
+    width: 300px;
+    height: auto;
+  }
+  .auto1 div h3 {
+    font-size: 25px;
+  }
+  /*-------AUTO 2--------------------*/
+  .auto2 div {
+    width: 73%;
+  }
+  .auto2 img {
+    width: 300px;
+    height: auto;
+  }
+  .auto2 h3 {
+    font-size: 25px;
+  }
+  .auto2 p {
+    font-size: 20px;
+  }
+  /*------------AUTO 3--------------------*/
+  .auto3 div {
+    width: 78%;
+  }
+  .auto3 div img {
+    width: 300px;
+    height: auto;
+  }
+  .auto3 div h3 {
+    font-size: 25px;
+  }
+  .auto3 div p {
+    font-size: 20px;
+  }
+  /*------------AUTO 4--------------------*/
+  .auto4 div {
+    width: 74%;
+  }
+  .auto4 div img {
+    width: 300px;
+    height: auto;
+  }
+  .auto4 div h3 {
+    font-size: 25px;
+  }
+  .auto4 div p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .pag-venta section div h1 {
+    font-size: 50px;
+  }
+  .pag-venta section div h2 {
+    font-size: 30px;
+  }
+  .pag-venta section div p {
+    font-size: 15px;
+  }
+  .centro {
+    text-align: center;
+  }
+  .col-12 button {
+    padding: 2% 2%;
+    width: 20%;
+    height: auto;
+    max-width: 100%;
+  }
+  footer div img {
+    width: 200px;
+    height: auto;
+    margin-left: 36%;
+  }
+  .botones .comprar-auto h2 a {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .botones .vender-auto div h2 a {
+    font-size: 42px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 746px) {
+  .mapa iframe {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    margin-left: 70%;
+    margin-top: -24%;
+  }
+}
+@media screen and (max-width: 706px) {
+  header nav ul li a {
+    font-size: 25px !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 685px) {
+  .pag-principal .tittle h1 {
+    font-size: 30px;
+  }
+  .pag-principal .tittle h2 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 654px) {
+  header nav ul li a {
+    font-size: 23px !important;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 630px) {
+  .cotizar-mi-auto section.titulos div h2 {
+    font-size: 40px;
+  }
+  .cotizar-mi-auto section.titulos div h3 {
+    font-size: 16px;
+  }
+  header nav ul li a {
+    font-size: 20px !important;
+    margin: 30px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: 560px) {
+  .comprar .title h1 {
+    font-size: 35px;
+  }
+  .comprar .title h2 {
+    font-size: 14px;
+  }
+  header nav ul li a {
+    font-size: 12px !important;
+    margin: 30px;
+    transition: 1s;
+  }
+}
+@media screen and (max-width: 586px) {
+  .contacto .titulos h1 {
+    font-size: 40px;
+  }
+  .contacto section.titulos h2 {
+    font-size: 23px;
+  }
+  footer div img {
+    width: 200px;
+    height: auto;
+    margin-left: 30%;
+  }
+  header nav ul li a {
+    font-size: 19px !important;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

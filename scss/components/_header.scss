@@ -1,0 +1,43 @@
+/*----------HEADER------------*/
+
+header {
+    background-color: rgb(224, 223, 223);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 110px;
+            height: auto;
+            margin-left: 20px;
+        }
+
+        ul {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 1000;
+            list-style: none;
+            display: flex;
+            justify-content: right;
+            padding-right: 100px;
+            align-items: center;
+
+            li a {
+                text-decoration: none;
+                color: rgb(39, 36, 36);
+                font-size: 28px;
+                font-weight: 500;
+                margin: 30px;
+                transition: 1s;
+            }
+
+            & a:hover {
+                background-color: #436474;
+                border-radius: 60px;
+            }
+        }
+    }
+}
