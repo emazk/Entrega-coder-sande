@@ -12,11 +12,11 @@
         margin: 0 20%;
 
         h1 {
-            border: 3px solid #436474;
+            border: 3px solid $backround-color;
             background-color: #031924ab;
             border-style: inset;
             font-size: 65px;
-            color: aliceblue;
+            color: $aliceblue;
             text-transform: uppercase;
             font-weight: 400;
             text-align: center;
@@ -25,7 +25,7 @@
 
         h2 {
             font-size: 40px;
-            color: aliceblue;
+            color: $aliceblue;
             text-transform: uppercase;
             font-weight: 300;
             text-align: center;
@@ -34,7 +34,7 @@
 
         p {
             font-size: 20px;
-            color: aliceblue;
+            color: $aliceblue;
             text-transform: uppercase;
             font-weight: 400;
             background-color: rgba(20, 20, 20, 0.678);

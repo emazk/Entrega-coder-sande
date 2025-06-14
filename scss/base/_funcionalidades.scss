@@ -1,22 +1,29 @@
+/*----PALETA COLORS----*/
+$backround-color:#436474;
+$titulo-principal: rgb(123, 23, 23);
+$fondo-titulo: #436474b6;
+$fondo-subtitulo: #43647470;
+$aliceblue: aliceblue;
+
 /*-----SELECCION DE BOTONES-----*/
 h1::selection {
-    background-color: #436474;
+    background-color: $backround-color;
 }
 
 h2::selection {
-    background-color: #436474;
+    background-color: $backround-color;
 }
 
 h3::selection {
-    background-color: #436474;
+    background-color: $backround-color;
 }
 
 p::selection {
-    background-color: #436474;
+    background-color: $backround-color;
 }
 
 ul::selection {
-    background-color: #436474;
+    background-color: $backround-color;
 }
 
 /*--------LOGO WSP---------*/

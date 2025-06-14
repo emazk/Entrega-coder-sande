@@ -17,10 +17,10 @@
         h1 {
             /*Titulo Sande Motors*/
             font-family: "Exo 2", sans-serif;
-            background-color: #436474b6;
+            background-color: $fondo-titulo;
             border-style: inset;
             font-size: 70px;
-            color: aliceblue;
+            color: $aliceblue;
             text-transform: uppercase;
             font-weight: 700;
         }
@@ -28,20 +28,29 @@
         h2 {
 
             font-family: "Exo 2", sans-serif;
-            background-color: #43647470;
+            background-color: $fondo-subtitulo;
             font-size: 30px;
-            color: aliceblue;
+            color: $aliceblue;
             text-transform: uppercase;
             font-weight: 200;
         }
     }
 }
 
+/*-----FLEX PRINCIPAL------*/
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20%;
+    gap: 10%;
+}
+
 /*-----COMPRAR AUTO-----*/
 .botones .comprar-auto h2 a {
     color: rgb(215, 233, 241);
     border: 3px solid #436474;
-    background-color: #031924;
+    background-color: $titulo-principal;
     opacity: 95%;
     border-radius: 10px;
     font-size: 50px;
@@ -50,15 +59,15 @@
     text-decoration: none;
     transition: 1s;
     &:hover{
-        background-color: #436474;
+        background-color: red;
     }
 }
 
 /*------VENDER AUTO------------*/
 .botones .vender-auto div h2 a {
     color: rgb(215, 233, 241);
-    border: 3px solid #436474;
-    background-color: #031924;
+    border: 3px solid $backround-color;
+    background-color: $titulo-principal;
     opacity: 95%;
     border-radius: 10px;
     font-size: 50px;
@@ -67,7 +76,7 @@
     text-decoration: none;
     transition: 1s;
     &:hover{
-        background-color: #436474;
+        background-color: red;
     }
 }
 

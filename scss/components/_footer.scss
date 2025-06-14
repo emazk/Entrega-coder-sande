@@ -21,49 +21,60 @@ footer {
     }
 }
 
+.container-foot {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: solid brown 4px;
+}
+
 .contactanos {
-    margin-top: -235px;
+    border: rgb(32, 215, 35) solid 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     h2 {
         font-weight: 500;
         font-size: 30px;
         text-align: center;
-        padding-right: 500px;
-    
-
-        p {
-            font-size: 20px;
-            text-align: center;
-            padding-right: 430px;
-            padding-top: 5px;
-        }
     }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+    }
+
 }
 
 .seguinos {
-    margin-top: -85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: rgb(92, 32, 187) solid 4px;
 
     h2 {
         font-weight: 500;
         font-size: 30px;
-        text-align: center;
-        padding-left: 500px;
+    }
 
-        ul {
-            text-align: center;
-            margin-left: 430px;
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            list-style: none;
 
-            li {
-                list-style: none;
-
-                a {
-                    font-size: 20px;
-                    text-align: center;
-                }
+            a {
+                font-size: 20px;
             }
         }
     }
+
 }
+
 
 .mapa iframe {
     width: 400px;
@@ -80,14 +91,6 @@ footer {
 }
 
 /*-----ICONOS BOOTSTRAP-----*/
-.seguinos ul {
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    padding-right: 37%;
-    flex-direction: column;
-}
-
 .red {
     padding-right: 8%;
 }
@@ -99,20 +102,14 @@ footer {
     h2 {
         font-weight: 500;
         font-size: 30px;
-        text-align: center;
-        padding-left: 500px;
         color: rgb(39, 39, 39) !important;
     }
 }
 
 .correo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     i {
         font-size: 18px;
-        margin-right: 5px;
         color: #031924bb;
     }
 }
