@@ -216,11 +216,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.comprar .tittle {
+.comprar .title {
   padding-top: 8%;
   margin: 0 30%;
 }
-.comprar .tittle h1 {
+.comprar .title h1 {
   border: 3px solid #436474;
   background-color: rgba(3, 25, 36, 0.7333333333);
   border-style: inset;
@@ -230,7 +230,7 @@ body {
   font-weight: 400;
   width: 100%;
 }
-.comprar .tittle h2 {
+.comprar .title h2 {
   font-size: 30px;
   color: aliceblue;
   background-color: rgba(3, 25, 36, 0.3019607843);
