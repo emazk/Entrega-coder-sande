@@ -827,6 +827,7 @@ footer div img {
   .auto2 img {
     width: 300px;
     height: auto;
+    padding: 5%;
   }
   .auto2 h3 {
     font-size: 25px;
@@ -896,6 +897,11 @@ footer div img {
     font-weight: 600;
   }
 }
+@media screen and (max-width: 745px) {
+  .comprar .title h1 {
+    font-size: 45px;
+  }
+}
 @media screen and (max-width: 746px) {
   .mapa iframe {
     position: absolute;
@@ -934,8 +940,23 @@ footer div img {
     margin-left: 30%;
   }
 }
-@media screen and (max-width: 572px) {
-  .mapa iframe {
+@media screen and (max-width: 550px) {
+  /*-------AUTO 2--------------------*/
+  .auto2 div {
+    width: 73%;
+  }
+  .auto2 img {
+    width: 300px !important;
+    height: auto !important;
+    padding: 5%;
+  }
+  .auto2 h3 {
+    font-size: 25px;
+  }
+  .auto2 p {
+    font-size: 20px;
+  }
+  footer .mapa {
     display: none;
   }
 }
@@ -1043,6 +1064,21 @@ footer div img {
 @media screen and (max-width: 409px) {
   header .navbar-nav li a {
     font-size: 20px !important;
+  }
+  /*-------AUTO 2--------------------*/
+  .auto2 div {
+    width: 77%;
+  }
+  .auto2 img {
+    width: 270px !important;
+    height: auto !important;
+    padding: 5%;
+  }
+  .auto2 h3 {
+    font-size: 25px;
+  }
+  .auto2 p {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 390px) {

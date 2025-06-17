@@ -256,6 +256,7 @@
         img {
             width: 300px;
             height: auto;
+            padding: 5%;
         }
 
         h3 {
@@ -374,6 +375,16 @@
     }
 }
 
+@media screen and (max-width: 745px){
+    .comprar{
+        .title{
+            h1{
+                font-size: 45px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 746px) {
     .mapa {
         iframe {
@@ -445,13 +456,35 @@
     }
 }
 
-@media screen and (max-width: 572px) {
-    .mapa {
-        iframe {
+
+@media screen and (max-width: 550px){
+    /*-------AUTO 2--------------------*/
+    .auto2 {
+        div {
+            width: 73%;
+        }
+
+        img {
+            width: 300px !important;
+            height: auto !important;
+            padding: 5%;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+    footer{
+        .mapa{
             display: none;
         }
     }
 }
+
 
 @media screen and (max-width: 560px) {
     .comprar {
@@ -645,6 +678,27 @@
                     font-size: 20px !important;
                 }
             }
+        }
+    }
+    /*-------AUTO 2--------------------*/
+
+    .auto2 {
+        div {
+            width: 77%;
+        }
+
+        img {
+            width: 270px !important;
+            height: auto !important;
+            padding: 5%;
+        }
+
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 20px;
         }
     }
 }
