@@ -14,6 +14,14 @@
     padding: 0 !important;
     margin: 0 !important;
 
+    .navbar-nav{
+        .nav-item{
+            a{
+                color: rgba(10, 10, 10, 0.952) !important;
+            }
+        }
+    }
+
     .navbar-brand img {
         width: 110px;
         height: auto;

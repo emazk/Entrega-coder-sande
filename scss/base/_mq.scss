@@ -43,6 +43,11 @@
                 margin-left: 40%;
             }
         }
+        .derechos{
+            p{
+                margin-top: 8%;
+            }
+        }
     }
 
     .pie-logo {
@@ -53,51 +58,9 @@
         }
     }
 
-    .contactanos {
-        margin-top: 5%;
-
-        h2 {
-            padding: 0% 18% 0% 5%;
-            font-size: 28px;
-        }
-
-        p {
-            padding: 0 12% 0% 5%;
-        }
-    }
-
-    .seguinos {
-        margin-top: 4%;
-        text-align: center;
-
-        h2 {
-            padding: 5px;
-            font-size: 28px;
-        }
-
-        ul {
-            margin: 0%;
-            padding: 0 23% 0% 5%;
-            margin-bottom: 10%;
-            display: flex;
-            justify-content: end;
-            align-items: end;
-            padding-right: 37%;
-            flex-direction: column;
-
-            li {
-                font-size: 18px;
-                color: #031924bb;
-
-                h2 {
-                    font-weight: 500;
-                    font-size: 30px;
-                    text-align: center;
-                    padding-left: 500px;
-                    color: rgb(39, 39, 39) !important;
-                }
-            }
-        }
+    .container-foot{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
     }
 
     .mapa {
@@ -164,6 +127,19 @@
     }
 }
 
+@media screen and (max-width: 993px){
+    .container-fluid{
+        display: flex;
+        flex-direction: column !important;
+        .navbar-nav{
+            flex-direction: row;
+            justify-content:center !important; 
+            padding: 0%;
+            margin-left: 4%;
+        }
+    }
+}
+
 @media screen and (max-width: 979px) {
     footer {
         div {
@@ -207,20 +183,6 @@
             height: 150px;
             margin-left: 70%;
             margin-top: -24%;
-        }
-    }
-
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 25px !important;
-                        margin: 30px;
-                        transition: 1s;
-                    }
-                }
-            }
         }
     }
 }
@@ -424,20 +386,6 @@
     }
 }
 
-@media screen and (max-width: 706px) {
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 25px !important;
-                        text-align: center;
-                    }
-                }
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 685px) {
     .pag-principal {
@@ -448,21 +396,6 @@
 
             h2 {
                 font-size: 15px;
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 654px) {
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 23px !important;
-                        text-align: center;
-                    }
-                }
             }
         }
     }
@@ -482,49 +415,9 @@
             }
         }
     }
-
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 20px !important;
-                        margin: 30px;
-                        transition: 1s;
-                    }
-                }
-            }
-        }
-    }
 }
 
-@media screen and (max-width: 560px) {
-    .comprar {
-        .title {
-            h1 {
-                font-size: 35px;
-            }
 
-            h2 {
-                font-size: 14px;
-            }
-        }
-    }
-
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 12px !important;
-                        margin: 30px;
-                        transition: 1s;
-                    }
-                }
-            }
-        }
-    }
-}
 
 @media screen and (max-width: 586px) {
     .contacto {
@@ -550,39 +443,25 @@
             }
         }
     }
-
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 19px !important;
-                    }
-                }
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 572px) {
     .mapa {
         iframe {
-            position: absolute;
-            width: 100px;
-            height: 90px;
-            margin-left: 70%;
-            margin-top: -30%;
+            display: none;
         }
     }
+}
 
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 15px !important;
-                    }
-                }
+@media screen and (max-width: 560px) {
+    .comprar {
+        .title {
+            h1 {
+                font-size: 35px;
+            }
+
+            h2 {
+                font-size: 14px;
             }
         }
     }
@@ -597,18 +476,6 @@
 
             h2 {
                 font-size: 12px;
-            }
-        }
-    }
-
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 13px !important;
-                    }
-                }
             }
         }
     }
@@ -647,28 +514,14 @@
             }
         }
     }
-
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 11px !important;
-                    }
-                }
-            }
-        }
-    }
 }
 
-@media screen and (max-width: 462px) {
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 9px !important;
-                    }
+@media screen and (max-width: 481px){
+    header{
+        .navbar-nav{
+            li{
+                a{
+                    font-size: 23px !important;
                 }
             }
         }
@@ -782,14 +635,14 @@
             }
         }
     }
+}
 
-    header {
-        nav {
-            ul {
-                li {
-                    a {
-                        font-size: 5px !important;
-                    }
+@media screen and (max-width: 409px){
+    header{
+        .navbar-nav{
+            li{
+                a{
+                    font-size: 20px !important;
                 }
             }
         }
@@ -831,13 +684,14 @@
             }
         }
     }
+}
+
+@media screen and (max-width: 372px){
     header{
-        nav{
-            ul{
-                li{
-                    a{
-                        font-size: 2px !important;
-                    }
+        .navbar-nav{
+            li{
+                a{
+                    font-size: 17px !important;
                 }
             }
         }

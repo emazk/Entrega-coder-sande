@@ -75,6 +75,9 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
+.container-fluid .navbar-nav .nav-item a {
+  color: rgba(10, 10, 10, 0.952) !important;
+}
 .container-fluid .navbar-brand img {
   width: 110px;
   height: auto;
@@ -577,11 +580,9 @@ footer div img {
   justify-content: center;
   gap: 20px;
   padding: 20px;
-  border: solid brown 4px;
 }
 
 .contactanos {
-  border: rgb(32, 215, 35) solid 4px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -590,6 +591,12 @@ footer div img {
   font-weight: 500;
   font-size: 30px;
   text-align: center;
+}
+.contactanos .correo {
+  display: flex;
+}
+.contactanos .correo i {
+  margin: 1% 2% 1% 1%;
 }
 .contactanos p {
   font-size: 20px;
@@ -600,7 +607,6 @@ footer div img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: rgb(92, 32, 187) solid 4px;
 }
 .seguinos h2 {
   font-weight: 500;
@@ -677,49 +683,17 @@ footer div img {
     height: auto;
     margin-left: 40%;
   }
+  footer .derechos p {
+    margin-top: 8%;
+  }
   .pie-logo p {
     font-size: 17px;
     text-align: center;
     margin-right: 8%;
   }
-  .contactanos {
-    margin-top: 5%;
-  }
-  .contactanos h2 {
-    padding: 0% 18% 0% 5%;
-    font-size: 28px;
-  }
-  .contactanos p {
-    padding: 0 12% 0% 5%;
-  }
-  .seguinos {
-    margin-top: 4%;
-    text-align: center;
-  }
-  .seguinos h2 {
-    padding: 5px;
-    font-size: 28px;
-  }
-  .seguinos ul {
-    margin: 0%;
-    padding: 0 23% 0% 5%;
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    padding-right: 37%;
-    flex-direction: column;
-  }
-  .seguinos ul li {
-    font-size: 18px;
-    color: rgba(3, 25, 36, 0.7333333333);
-  }
-  .seguinos ul li h2 {
-    font-weight: 500;
-    font-size: 30px;
-    text-align: center;
-    padding-left: 500px;
-    color: rgb(39, 39, 39) !important;
+  .container-foot {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
   }
   .mapa iframe {
     position: absolute;
@@ -767,6 +741,18 @@ footer div img {
     margin-top: -24%;
   }
 }
+@media screen and (max-width: 993px) {
+  .container-fluid {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .container-fluid .navbar-nav {
+    flex-direction: row;
+    justify-content: center !important;
+    padding: 0%;
+    margin-left: 4%;
+  }
+}
 @media screen and (max-width: 979px) {
   footer div img {
     width: 200px;
@@ -795,11 +781,6 @@ footer div img {
     height: 150px;
     margin-left: 70%;
     margin-top: -24%;
-  }
-  header nav ul li a {
-    font-size: 25px !important;
-    margin: 30px;
-    transition: 1s;
   }
 }
 @media screen and (max-width: 840px) {
@@ -924,12 +905,6 @@ footer div img {
     margin-top: -24%;
   }
 }
-@media screen and (max-width: 706px) {
-  header nav ul li a {
-    font-size: 25px !important;
-    text-align: center;
-  }
-}
 @media screen and (max-width: 685px) {
   .pag-principal .tittle h1 {
     font-size: 30px;
@@ -938,36 +913,12 @@ footer div img {
     font-size: 15px;
   }
 }
-@media screen and (max-width: 654px) {
-  header nav ul li a {
-    font-size: 23px !important;
-    text-align: center;
-  }
-}
 @media screen and (max-width: 630px) {
   .cotizar-mi-auto section.titulos div h2 {
     font-size: 40px;
   }
   .cotizar-mi-auto section.titulos div h3 {
     font-size: 16px;
-  }
-  header nav ul li a {
-    font-size: 20px !important;
-    margin: 30px;
-    transition: 1s;
-  }
-}
-@media screen and (max-width: 560px) {
-  .comprar .title h1 {
-    font-size: 35px;
-  }
-  .comprar .title h2 {
-    font-size: 14px;
-  }
-  header nav ul li a {
-    font-size: 12px !important;
-    margin: 30px;
-    transition: 1s;
   }
 }
 @media screen and (max-width: 586px) {
@@ -982,20 +933,18 @@ footer div img {
     height: auto;
     margin-left: 30%;
   }
-  header nav ul li a {
-    font-size: 19px !important;
-  }
 }
 @media screen and (max-width: 572px) {
   .mapa iframe {
-    position: absolute;
-    width: 100px;
-    height: 90px;
-    margin-left: 70%;
-    margin-top: -30%;
+    display: none;
   }
-  header nav ul li a {
-    font-size: 15px !important;
+}
+@media screen and (max-width: 560px) {
+  .comprar .title h1 {
+    font-size: 35px;
+  }
+  .comprar .title h2 {
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 514px) {
@@ -1004,9 +953,6 @@ footer div img {
   }
   .pag-principal .tittle h2 {
     font-size: 12px;
-  }
-  header nav ul li a {
-    font-size: 13px !important;
   }
 }
 @media screen and (max-width: 492px) {
@@ -1026,13 +972,10 @@ footer div img {
     font-size: 12px;
     margin-bottom: 1%;
   }
-  header nav ul li a {
-    font-size: 11px !important;
-  }
 }
-@media screen and (max-width: 462px) {
-  header nav ul li a {
-    font-size: 9px !important;
+@media screen and (max-width: 481px) {
+  header .navbar-nav li a {
+    font-size: 23px !important;
   }
 }
 @media screen and (max-width: 460px) {
@@ -1096,8 +1039,10 @@ footer div img {
   .pag-principal .tittle h2 {
     font-size: 9px;
   }
-  header nav ul li a {
-    font-size: 5px !important;
+}
+@media screen and (max-width: 409px) {
+  header .navbar-nav li a {
+    font-size: 20px !important;
   }
 }
 @media screen and (max-width: 390px) {
@@ -1117,8 +1062,10 @@ footer div img {
   .comprar .title h2 {
     font-size: 9px;
   }
-  header nav ul li a {
-    font-size: 2px !important;
+}
+@media screen and (max-width: 372px) {
+  header .navbar-nav li a {
+    font-size: 17px !important;
   }
 }
 
