@@ -23,6 +23,9 @@
             color: $aliceblue;
             text-transform: uppercase;
             font-weight: 700;
+            span{
+                color: $titulo-principal;
+            }
         }
 
         h2 {

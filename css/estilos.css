@@ -127,6 +127,9 @@ body {
   text-transform: uppercase;
   font-weight: 700;
 }
+.pag-principal .tittle h1 span {
+  color: rgb(123, 23, 23);
+}
 .pag-principal .tittle h2 {
   font-family: "Exo 2", sans-serif;
   background-color: rgba(67, 100, 116, 0.4392156863);
