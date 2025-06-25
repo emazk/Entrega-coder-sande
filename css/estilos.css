@@ -64,13 +64,19 @@ body {
 }
 
 .navbar-nav {
+  display: flex !important;
+  justify-content: flex-end !important;
+  width: 100%;
+}
+.navbar-nav .nav-item a {
+  color: rgba(10, 10, 10, 0.952) !important;
+}
+
+.navbar-nav {
   font-family: "Exo 2", sans-serif !important;
 }
 
 .container-fluid {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   background-color: rgb(224, 223, 223);
   padding: 0 !important;
   margin: 0 !important;
@@ -101,6 +107,10 @@ body {
   background-color: #436474;
   border-radius: 60px;
   padding: 5px 15px;
+}
+
+.navbar-toggler {
+  margin-bottom: 4%;
 }
 
 /*------------MAIN---------------*/
