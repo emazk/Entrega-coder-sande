@@ -122,10 +122,8 @@ body {
   background-size: cover;
 }
 .pag-principal .tittle {
-  margin: 0 2%;
   padding-top: 8%;
-  padding-left: 37%;
-  padding-right: 33%;
+  margin: 0% 30% 0% 30%;
 }
 .pag-principal .tittle h1 {
   /*Titulo Sande Motors*/
@@ -740,11 +738,8 @@ footer div img {
   }
 }
 @media screen and (max-width: 1182px) {
-  .pag-principal .tittle h1 {
-    font-size: 50px;
-  }
-  .pag-principal .tittle h1 h2 {
-    font-size: 20px;
+  .pag-principal .tittle {
+    display: inline-block;
   }
   .mapa iframe {
     position: absolute;
@@ -805,18 +800,7 @@ footer div img {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 825px) {
-  .pag-principal .tittle h1 {
-    font-size: 26px;
-  }
-  .pag-principal .tittle h2 {
-    font-size: 15px;
-  }
-}
 @media screen and (max-width: 790px) {
-  .comprar .title h2 {
-    font-size: 18px;
-  }
   .todos {
     gap: 0.5%;
   }
@@ -910,12 +894,13 @@ footer div img {
     font-weight: 600;
   }
 }
-@media screen and (max-width: 745px) {
-  .comprar .title h1 {
-    font-size: 45px;
+@media screen and (max-width: 740px) {
+  .pag-principal .tittle h1 {
+    font-size: 50px;
   }
-}
-@media screen and (max-width: 746px) {
+  .pag-principal .tittle h2 {
+    font-size: 30px;
+  }
   .mapa iframe {
     position: absolute;
     width: 150px;
@@ -926,10 +911,10 @@ footer div img {
 }
 @media screen and (max-width: 685px) {
   .pag-principal .tittle h1 {
-    font-size: 30px;
+    font-size: 50px;
   }
   .pag-principal .tittle h2 {
-    font-size: 15px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 630px) {
@@ -954,6 +939,12 @@ footer div img {
   }
 }
 @media screen and (max-width: 550px) {
+  .pag-principal .tittle h1 {
+    font-size: 40px;
+  }
+  .pag-principal .tittle h2 {
+    font-size: 25px;
+  }
   /*-------AUTO 2--------------------*/
   .auto2 div {
     width: 73%;
@@ -982,11 +973,14 @@ footer div img {
   }
 }
 @media screen and (max-width: 514px) {
+  .pag-principal .tittle {
+    margin: 10%;
+  }
   .pag-principal .tittle h1 {
-    font-size: 25px;
+    font-size: 40px;
   }
   .pag-principal .tittle h2 {
-    font-size: 12px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 492px) {
@@ -1067,11 +1061,14 @@ footer div img {
     height: auto;
     margin-left: 25%;
   }
+  .pag-principal .tittle {
+    margin: 10%;
+  }
   .pag-principal .tittle h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
   .pag-principal .tittle h2 {
-    font-size: 9px;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 409px) {

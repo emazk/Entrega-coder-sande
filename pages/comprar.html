@@ -15,12 +15,16 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <!--LINK ICONOS BOOTSTRAP-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--LIBRERIA ANIMACION-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--LINK CSS-->
     <link rel="stylesheet" href="../css/estilos.css">
     <!--FAVICON-->
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
     <!--TITULO-->
     <title>Comprar un auto en Sande Motors</title>
+    <!--LIBRERIA AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -54,7 +58,7 @@
         <section class="comprar">
             <section>
                 <div class="title">
-                    <h1>Conoce nuestro stock</h1>
+                    <h1 class="animate__animated animate__zoomInDown">Conoce nuestro stock</h1>
                     <h2>Encontraste el lugar ideal para adquirir tu próximo vehículo</h2>
                 </div>
 
@@ -67,37 +71,45 @@
             </section>
 
             <section class="todos">
-                <section class="auto1">
-                    <div>
-                        <img src="../img/auditt.png" title="auto audi tt" alt="auditt">
-                        <h3>USD 68.500</h3>
-                        <p>AUDI TT COUPE 2.0 T FSI 230CV 2018</p>
-                    </div>
-                </section>
+                <div data-aos="fade-up">
+                    <section class="auto1">
+                        <div>
+                            <img src="../img/auditt.png" title="auto audi tt" alt="auditt">
+                            <h3>USD 68.500</h3>
+                            <p>AUDI TT COUPE 2.0 T FSI 230CV 2018</p>
+                        </div>
+                    </section>
+                </div>
 
-                <section class="auto2">
-                    <div>
-                        <img src="../img/mercedes.png" title="auto mercedes benz" alt="mercedesca">
-                        <h3>USD 125.000</h3>
-                        <p>MERCEDES BENZ CLASE A 2.0 A35 MHEV 4MATIC 306CV 5P 2024</p>
-                    </div>
-                </section>
+                <div data-aos="fade-down">
+                    <section class="auto2">
+                        <div>
+                            <img src="../img/mercedes.png" title="auto mercedes benz" alt="mercedesca">
+                            <h3>USD 125.000</h3>
+                            <p>MERCEDES BENZ CLASE A 2.0 A35 MHEV 4MATIC 306CV 5P 2024</p>
+                        </div>
+                    </section>
+                </div>
 
-                <section class="auto3">
-                    <div>
-                        <img src="../img/f150.jpg" title="camioneta ford f150" alt="f150">
-                        <h3>USD 140.000</h3>
-                        <p>FORD F-150 RAPTOR 3.5 V6 ECOBOOST HO 4X4 AT 2025</p>
-                    </div>
-                </section>
+                <div data-aos="fade-right">
+                    <section class="auto3">
+                        <div>
+                            <img src="../img/f150.jpg" title="camioneta ford f150" alt="f150">
+                            <h3>USD 140.000</h3>
+                            <p>FORD F-150 RAPTOR 3.5 V6 ECOBOOST HO 4X4 AT 2025</p>
+                        </div>
+                    </section>
+                </div>
 
-                <section class="auto4">
-                    <div>
-                        <img src="../img/mustang.png" title="auto ford mustang" alt="mustang">
-                        <h3>USD 100.000</h3>
-                        <p>FORD MUSTANG S550 MACH 1 5.0 V8 475CV 2022</p>
-                    </div>
-                </section>
+                <div data-aos="fade-left">
+                    <section class="auto4">
+                        <div>
+                            <img src="../img/mustang.png" title="auto ford mustang" alt="mustang">
+                            <h3>USD 100.000</h3>
+                            <p>FORD MUSTANG S550 MACH 1 5.0 V8 475CV 2022</p>
+                        </div>
+                    </section>
+                </div>
             </section>
 
             <section class="wsp">
@@ -157,6 +169,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
