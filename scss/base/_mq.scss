@@ -157,6 +157,19 @@
     }
 }
 
+@media screen and (max-width: 956px){
+    .comprar{
+        .title{
+            h1{
+                font-size: 50px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+}
+
 @media screen and (max-width: 871px) {
     .cotizar-mi-auto {
         section.titulos {

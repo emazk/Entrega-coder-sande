@@ -34,6 +34,22 @@ ul::selection {
   z-index: 9999;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*---FUENTES IMPORTADAS----*/
 /*------RESET-------*/
 * {
@@ -774,6 +790,13 @@ footer div img {
     margin-top: 20%;
     margin-left: 5%;
     gap: 100px;
+  }
+}
+@media screen and (max-width: 956px) {
+  .comprar .title h1 {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
   }
 }
 @media screen and (max-width: 871px) {
