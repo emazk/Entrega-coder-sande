@@ -38,10 +38,12 @@ ul::selection {
   box-sizing: border-box;
 }
 
-body {
+/*--------------AJUSTES-----------------*/
+html, body {
+  width: 100%;
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 img {
@@ -248,7 +250,10 @@ body {
 }
 .comprar .title {
   padding-top: 8%;
-  margin: 0 30%;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  max-width: 1000px;
 }
 .comprar .title h1 {
   border: 3px solid #436474;
