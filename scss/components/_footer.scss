@@ -1,7 +1,8 @@
 /*-------------FOOTER----------------*/
+
 footer {
     background-color: rgb(224, 223, 223);
-
+    padding-bottom: 15%;
     div img {
         width: 170px;
         height: auto;
@@ -28,6 +29,7 @@ footer {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    margin-top: -9%;
 }
 
 .contactanos {
@@ -85,7 +87,8 @@ footer {
     width: 400px;
     height: 300px;
     margin-left: 76%;
-    margin-top: -70px;
+    margin-top: -10%;
+    margin-bottom: 14%;
 }
 
 .derechos p {
@@ -93,6 +96,8 @@ footer {
     font-weight: 600;
     text-align: center;
     top: -25px;
+    margin-top: -15%;
+    
 }
 
 /*-----ICONOS BOOTSTRAP-----*/

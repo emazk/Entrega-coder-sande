@@ -52,6 +52,8 @@
     }
 
     .pie-logo {
+        margin-bottom: 15%;
+
         p {
             font-size: 17px;
             text-align: center;
@@ -122,9 +124,24 @@
 }
 
 @media screen and (max-width: 993px) {
+
+
     .container-fluid {
         display: flex;
         flex-direction: column !important;
+
+        .contenedorHeader {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+
+            button {
+                margin-top: 3%;
+                width: 40%;
+                height: 30%;
+            }
+        }
 
         .navbar-nav {
             flex-direction: row;
@@ -132,7 +149,20 @@
             padding: 0%;
             margin-left: 4%;
         }
+
+        .navbar-toggler {
+            margin: -9% 30% 6% 0;
+            width: 10%;
+            height: 6%;
+            padding: 1%;
+
+        }
+
+        .navbar-toggler-icon {
+            background-size: 20px 20px;
+        }
     }
+
 }
 
 @media screen and (max-width: 979px) {
@@ -156,10 +186,10 @@
     }
 }
 
-@media screen and (max-width: 956px){
-    .comprar{
-        .title{
-            h1{
+@media screen and (max-width: 956px) {
+    .comprar {
+        .title {
+            h1 {
                 font-size: 50px;
                 margin: 0;
                 padding: 0;
@@ -452,7 +482,7 @@
 @media screen and (max-width: 550px) {
     .pag-principal {
         .tittle {
-            
+
             h1 {
                 font-size: 40px;
             }
@@ -462,7 +492,7 @@
             }
         }
     }
-    
+
 
     /*-------AUTO 2--------------------*/
     .auto2 {
@@ -511,7 +541,7 @@
     .pag-principal {
         .tittle {
             margin: 10%;
-            
+
             h1 {
                 font-size: 40px;
             }
@@ -669,7 +699,7 @@
     .pag-principal {
         .tittle {
             margin: 10%;
-            
+
             h1 {
                 font-size: 40px;
             }

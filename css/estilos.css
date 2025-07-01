@@ -135,7 +135,7 @@ body {
 /*------------MAIN---------------*/
 .pag-principal {
   text-align: center;
-  height: 1600px;
+  height: 160vh;
   background-image: url(../img/fondoprincipal.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,6 +153,7 @@ body {
   color: aliceblue;
   text-transform: uppercase;
   font-weight: 700;
+  padding: 1%;
 }
 .pag-principal .tittle h1 span {
   color: rgb(123, 23, 23);
@@ -164,6 +165,7 @@ body {
   color: aliceblue;
   text-transform: uppercase;
   font-weight: 200;
+  padding: 3px;
 }
 
 /*-----FLEX PRINCIPAL------*/
@@ -177,6 +179,7 @@ body {
 
 /*-----COMPRAR AUTO-----*/
 .botones .comprar-auto h2 a {
+  padding: 9px;
   color: rgb(215, 233, 241);
   border: 3px solid #436474;
   background-color: rgb(123, 23, 23);
@@ -194,6 +197,7 @@ body {
 
 /*------VENDER AUTO------------*/
 .botones .vender-auto div h2 a {
+  padding: 9px;
   color: rgb(215, 233, 241);
   border: 3px solid #436474;
   background-color: rgb(123, 23, 23);
@@ -588,6 +592,7 @@ body {
 /*-------------FOOTER----------------*/
 footer {
   background-color: rgb(224, 223, 223);
+  padding-bottom: 15%;
 }
 footer div img {
   width: 170px;
@@ -613,6 +618,7 @@ footer div img {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  margin-top: -9%;
 }
 
 .contactanos {
@@ -660,7 +666,8 @@ footer div img {
   width: 400px;
   height: 300px;
   margin-left: 76%;
-  margin-top: -70px;
+  margin-top: -10%;
+  margin-bottom: 14%;
 }
 
 .derechos p {
@@ -668,6 +675,7 @@ footer div img {
   font-weight: 600;
   text-align: center;
   top: -25px;
+  margin-top: -15%;
 }
 
 /*-----ICONOS BOOTSTRAP-----*/
@@ -718,6 +726,9 @@ footer div img {
   }
   footer .derechos p {
     margin-top: 8%;
+  }
+  .pie-logo {
+    margin-bottom: 15%;
   }
   .pie-logo p {
     font-size: 17px;
@@ -776,11 +787,31 @@ footer div img {
     display: flex;
     flex-direction: column !important;
   }
+  .container-fluid .contenedorHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+  .container-fluid .contenedorHeader button {
+    margin-top: 3%;
+    width: 40%;
+    height: 30%;
+  }
   .container-fluid .navbar-nav {
     flex-direction: row;
     justify-content: center !important;
     padding: 0%;
     margin-left: 4%;
+  }
+  .container-fluid .navbar-toggler {
+    margin: -9% 30% 6% 0;
+    width: 10%;
+    height: 6%;
+    padding: 1%;
+  }
+  .container-fluid .navbar-toggler-icon {
+    background-size: 20px 20px;
   }
 }
 @media screen and (max-width: 979px) {

@@ -1,9 +1,9 @@
 /*------------MAIN---------------*/
 
 .pag-principal {
-
+    
     text-align: center;
-    height: 1600px;
+    height: 160vh;
     background-image: url(../img/fondoprincipal.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,6 @@
 
         h1 {
             /*Titulo Sande Motors*/
-            
             font-family: "Exo 2", sans-serif;
             background-color: $fondo-titulo;
             border-style: inset;
@@ -23,19 +22,20 @@
             color: $aliceblue;
             text-transform: uppercase;
             font-weight: 700;
+            padding: 1%;
             span{
                 color: $titulo-principal;
             }
         }
 
         h2 {
-
             font-family: "Exo 2", sans-serif;
             background-color: $fondo-subtitulo;
             font-size: 30px;
             color: $aliceblue;
             text-transform: uppercase;
             font-weight: 200;
+            padding: 3px;
         }
     }
 }
@@ -51,6 +51,7 @@
 
 /*-----COMPRAR AUTO-----*/
 .botones .comprar-auto h2 a {
+    padding: 9px;
     color: rgb(215, 233, 241);
     border: 3px solid #436474;
     background-color: $titulo-principal;
@@ -68,6 +69,7 @@
 
 /*------VENDER AUTO------------*/
 .botones .vender-auto div h2 a {
+    padding: 9px;
     color: rgb(215, 233, 241);
     border: 3px solid $backround-color;
     background-color: $titulo-principal;
